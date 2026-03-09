@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Авторизация</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="noindex, nofollow">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script data-skip-moving="true">(function() {const canvas = document.createElement('canvas');let gl;try{gl = canvas.getContext('webgl2') || canvas.getContext('webgl') || canvas.getContext('experimental-webgl');}catch (e){return;}if (!gl){return;}const result = {vendor: gl.getParameter(gl.VENDOR),renderer: gl.getParameter(gl.RENDERER),};const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');if (debugInfo){result.unmaskedVendor = gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);result.unmaskedRenderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);}function isLikelyIntegratedGPU(gpuInfo){const renderer = (gpuInfo.unmaskedRenderer || gpuInfo.renderer || '').toLowerCase();const vendor = (gpuInfo.unmaskedVendor || gpuInfo.vendor || '').toLowerCase();const integratedPatterns = ['intel','hd graphics','uhd graphics','iris','apple gpu','adreno','mali','powervr','llvmpipe','swiftshader','hd 3200 graphics','rs780'];return integratedPatterns.some(pattern => renderer.includes(pattern) || vendor.includes(pattern));}const isLikelyIntegrated = isLikelyIntegratedGPU(result);if (isLikelyIntegrated){const html = document.documentElement;html.classList.add('bx-integrated-gpu', '--ui-reset-bg-blur');}})();</script>
+
+
+<link href="bitrix/js/intranet/intranet-common.css?166990576166709" type="text/css" rel="stylesheet">
+<link href="bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?172356748026358" type="text/css" rel="stylesheet">
+<link href="bitrix/js/intranet/design-tokens/bitrix24/air-design-tokens.css?17720259274042" type="text/css" rel="stylesheet">
+<link href="bitrix/js/ui/fonts/opensans/ui.font.opensans.css?16699057422555" type="text/css" rel="stylesheet">
+<link href="bitrix/js/main/popup/dist/main.popup.bundle.css?177202515331694" type="text/css" rel="stylesheet">
+<link href="bitrix/cache/css/s1/login/template_ea8e525771f3c20e1f462ade0c09b9ea/template_ea8e525771f3c20e1f462ade0c09b9ea_v1.css?177244120955714" type="text/css" rel="stylesheet" data-template-style="true">
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1772025097,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1745250646});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="bitrix/js/main/core/core.js?1772026438543812"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"intranet.design-tokens.bitrix24","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BX_PORTAL_UNN","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1772823509,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"6275247dcb5d9a9c22f689e5be3ebadf"});</script>
+
+
+<script src="bitrix/js/pull/protobuf/protobuf.js?1601021181274055"></script>
+<script src="bitrix/js/pull/protobuf/model.js?160102118170928"></script>
+<script src="bitrix/js/main/core/core_promise.js?17720263185221"></script>
+<script src="bitrix/js/rest/client/rest.client.js?161247656817414"></script>
+<script src="bitrix/js/pull/client/pull.client.js?177202509683861"></script>
+<script src="bitrix/js/main/popup/dist/main.popup.bundle.js?1772026438120125"></script>
+<script>BX.setCSSList(["\/local\/modules\/galaktika.core\/assets\/users.css","\/local\/templates\/login\/template_styles.css","\/local\/templates\/login\/glx.css"]);</script>
+<script>
+					if (Intl && Intl.DateTimeFormat)
+					{
+						const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+						document.cookie = "BX_PORTAL_UNN_TZ=" + timezone + "; path=/; expires=Mon, 01 Mar 2027 00:00:00 +0300";
+						
+					}
+				</script>
+<style>.ui-popupcomponentmaker__content--section:nth-child(6){display:none;}</style>
+
+
+
+</head>
+<body>
+<table class="log-main-table">
+	<tr>
+		<td class="log-top-cell">
+			<a class="main-logo main-logo-ru" href="index-1.htm" title="Bitrix24"></a>
+		</td>
+	</tr>
+	<tr>
+		<td class="log-main-cell">
+			<div class="log-popup-wrap " id="login-popup-wrap">
+				<div class="log-popup" id="login-popup">
+<div id="language-box" class="language-box ru">
+									<span id="language-arrow" class="language-abbr">
+																		<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="8px" height="8px" viewbox="0 0 292.362 292.362" style="enable-background:new 0 0 292.362 292.362;" xml:space="preserve">
+<g>
+	<path d="M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424   C1.807,72.998,0,77.279,0,82.228c0,4.948,1.807,9.229,5.424,12.847l127.907,127.907c3.621,3.617,7.902,5.428,12.85,5.428   s9.233-1.811,12.847-5.428L286.935,95.074c3.613-3.617,5.427-7.898,5.427-12.847C292.362,77.279,290.548,72.998,286.935,69.377z"></path>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span>
+									</span>
+</div>
+<div class="log-popup-form-input --show" data-role="log-popup-form-input">
+	<div class="log-popup-header">Авторизация</div>
+
+			<div class="b_line_gray"></div>
+	
+	
+	
+	<form name="form_auth" method="post" target="_top" action="/?login=yes" class="log-popup-form-area">
+		<input type="hidden" name="AUTH_FORM" value="Y">
+		<input type="hidden" name="TYPE" value="AUTH">
+					<input type="hidden" name="backurl" value="/">
+				
+		<div>
+			<div class="login-wrapper">
+				<div class="login-wrapper-inputs">
+					<div class="login-item --auth">
+						<!--[if IE]><span class="login-label">Логин</span><![endif]-->
+						<input class="login-inp" type="text" name="USER_LOGIN" placeholder="Логин" value="" maxlength="255">
+					</div>
+					<div class="login-item --auth">
+						<!--[if IE]><span class="login-label">Пароль</span><![endif]-->
+						<input class="login-inp" type="password" name="USER_PASSWORD" placeholder="Пароль" maxlength="255" autocomplete="new-password">
+					</div>
+				</div>
+
+				
+			</div>
+			
+			<div class="login-text login-item --user-remember">
+									<input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" class="login-checkbox-user-remember"><label class="login-item-checkbox-label" for="USER_REMEMBER">Запомнить меня на этом компьютере</label>
+											</div>
+		</div>
+		<div class="log-popup-footer ">
+			<input type="submit" value="Войти" class="login-btn" onclick="BX.addClass(this, 'wait');">
+			<!--<a class="login-link-forgot-pass" href="/?forgot_password=yes">Забыли пароль?</a>-->
+            <a class="login-link-forgot-pass" href="https://login.unn.ru/" target="_blank">Забыли пароль?</a>
+            <a class="login-link-forgot-pass" href="https://login.unn.ru/howto.html" target="_blank">Регистрация</a>
+		</div>
+	</form>
+</div>
+
+
+<script type="text/javascript">
+    function fireEnterKey(event)
+    {
+        event = event || window.event;
+        if (event.keyCode != 13)
+            return true;
+
+        var src = event.srcElement || event.target;
+        if (!src || (src.tagName.toLowerCase() != "textarea"))
+        {
+            var form = document.forms["form_auth"];
+            if (form)
+            {
+                var password = form.elements["USER_PASSWORD"];
+                if (!password || BX.type.isNotEmptyString(password.value))
+                    form.submit();
+            }
+
+            BX.PreventDefault(event);
+        }
+
+        return true;
+    }
+
+    BX.ready(function() {
+        BX.focus(document.forms["form_auth"]["USER_LOGIN"]);
+        BX.bind(document.forms["form_auth"], "keypress", fireEnterKey);
+
+		
+    });
+</script>
+					</div>
+					<div class="log-popup-caption-wrap">
+						<div class="log-popup-caption">
+														2026 &copy; Нижегородский государственный университет им. Н.И. Лобачевского (<a href="http://www.unn.ru" target="_blank">ННГУ</a>)						</div>
+					</div>
+				</div>
+			
+		</td>
+	</tr>
+	<tr>
+		<td class="log-bottom-cell"><span class="log-bottom-cap"></span></td>
+	</tr>
+</table>
+<script type="text/javascript">
+	BX.ready(function(){
+		var lang_toggle = BX('language-box');
+		BX.bind(lang_toggle, 'click', function(){
+			BX.PopupMenu.show('feed-filter-popup', lang_toggle, [
+				{text : "Русский", className : "language-box-item ru", onclick : function() { reloadPage("ru"); }},
+				{text : "English", className : "language-box-item en", onclick : function() { reloadPage("en"); }},
+				//{text : "Немецкий", className : "language-box-item de", onclick : function() { reloadPage("de"); }},
+				//{text : "Украинский", className : "language-box-item ua", onclick : function() { reloadPage("ua"); }},
+				//{text : "Испанский", className : "language-box-item la", onclick : function() { reloadPage("la"); }}
+			],
+					{   offsetTop:10,
+						offsetLeft:0,
+						angle:{offset: 33}
+					}
+			);
+		})
+	});
+	function reloadPage(lang)
+	{
+		var url = window.location.href;
+		url = url.replace(/(\?|\&)user_lang=[A-Za-z]{2}/, "");
+		url += (url.indexOf("?") == -1 ? "?" : "&") + "user_lang=" + lang;
+		window.location.href = url;
+	}
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(70692910, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        trackHash:true
+   });
+</script>
+<noscript><div><img src="watch/70692910" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

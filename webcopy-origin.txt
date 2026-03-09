@@ -1,0 +1,195 @@
+Uri: https://mc.yandex.ru/watch/70692910
+File Name: C:\Downloaded Web Sites\portal.unn.ru\watch\70692910-1
+Content Type: image/gif
+
+Uri: https://portal.unn.ru/app/profile/home
+File Name: C:\Downloaded Web Sites\portal.unn.ru\app\profile\home.html
+Content Type: text/html
+
+Uri: https://portal.unn.ru/bitrix/cache/css/s1/login/template_ea8e525771f3c20e1f462ade0c09b9ea/template_ea8e525771f3c20e1f462ade0c09b9ea_v1.css?177244120955714
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\cache\css\s1\login\template_ea8e525771f3c20e1f462ade0c09b9ea\template_ea8e525771f3c20e1f462ade0c09b9ea_v1-1.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/intranet/design-tokens/bitrix24/air-design-tokens.css?17720259274042
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\intranet\design-tokens\bitrix24\air-design-tokens-1.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/intranet/intranet-common.css?166990576166709
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\intranet\intranet-common-1.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/main/core/core.js?1772026438543812
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\main\core\core-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/main/core/core_promise.js?17720263185221
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\main\core\core_promise-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/main/popup/dist/main.popup.bundle.css?177202515331694
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\main\popup\dist\main.popup.bundle-1.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/main/popup/dist/main.popup.bundle.js?1772026438120125
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\main\popup\dist\main.popup.bundle-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/main/rsasecurity.js?150755240325045
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\main\rsasecurity.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/pull/client/pull.client.js?177202509683861
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\pull\client\pull.client-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/pull/protobuf/model.js?160102118170928
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\pull\protobuf\model-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/pull/protobuf/protobuf.js?1601021181274055
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\pull\protobuf\protobuf-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/rest/client/rest.client.js?161247656817414
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\rest\client\rest.client-1.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?172356748026358
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\design-tokens\dist\ui.design-tokens-1.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?16699057422555
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\ui.font.opensans-1.css
+Content Type: text/css
+
+protobuf.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/rest/client/rest.client.js?161247656817414
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\rest\client\rest.client.js
+Content Type: application/javascript
+
+Uri: https://portal.unn.ru/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?172356748026358
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\design-tokens\dist\ui.design-tokens.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-bold.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-bold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-bold.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-bold.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-light.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-light.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-light.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-light.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-regular.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-regular.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-regular.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-regular.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-semibold.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-semibold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/opensans-semibold.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\opensans-semibold.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?16699057422555
+File Name: C:\Downloaded Web Sites\portal.unn.ru\bitrix\js\ui\fonts\opensans\ui.font.opensans.css
+Content Type: text/css
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-medium.eot
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-medium.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-medium.eot?
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-medium-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-medium.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-medium.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-medium.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-medium.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-medium.woff2
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-medium.woff2
+Content Type: 
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-regular.eot
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-regular.eot?
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-regular.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-regular.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-regular.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-regular.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-regular.woff2
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-regular.woff2
+Content Type: 
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-semibold.eot
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-semibold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-semibold.eot?
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-semibold-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-semibold.ttf
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-semibold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-semibold.woff
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-semibold.woff
+Content Type: application/font-woff
+
+Uri: https://portal.unn.ru/local/templates/login/font/montserrat-semibold.woff2
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\font\montserrat-semibold.woff2
+Content Type: 
+
+Uri: https://portal.unn.ru/local/templates/login/images/bg_clouds_3.png
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\bg_clouds_3.png
+Content Type: image/png
+
+Uri: https://portal.unn.ru/local/templates/login/images/bx24-login-sprite5.png
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\bx24-login-sprite5.png
+Content Type: image/png
+
+Uri: https://portal.unn.ru/local/templates/login/images/ld_blue.gif
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\ld_blue.gif
+Content Type: image/gif
+
+Uri: https://portal.unn.ru/local/templates/login/images/logo.png
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\logo.png
+Content Type: image/png
+
+Uri: https://portal.unn.ru/local/templates/login/images/logo_en.png
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\logo_en.png
+Content Type: image/png
+
+Uri: https://portal.unn.ru/local/templates/login/images/soc6.png?v=3
+File Name: C:\Downloaded Web Sites\portal.unn.ru\local\templates\login\images\soc6.png
+Content Type: image/png
+
